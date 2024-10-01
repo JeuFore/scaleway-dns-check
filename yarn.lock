@@ -52,10 +52,10 @@
   resolved "https://registry.yarnpkg.com/@scaleway/random-name/-/random-name-5.1.0.tgz#fe6d97d4ce857f0bfd12c24a58f43671a52b8fee"
   integrity sha512-fLaEUOps1zOJ7BXUrCzKkV9uLibMlShYLC75viwJUOg3WFzzsKZAeQx3Df1RvJMxGlRnJ0fcj94X/Ch8GLOe/g==
 
-"@scaleway/sdk@^2.45.0":
-  version "2.45.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk/-/sdk-2.45.0.tgz#e630e2b9df706de0c9da6d06abf3b076d8fc7350"
-  integrity sha512-FaHT6ngggvJDyXpjRLHohMUAcbHvfBl5uNoPCF7JZp4HgW2YrSYZ3yanQHpTjOmnfOhI3No3t55sAUOED4AxGQ==
+"@scaleway/sdk@^2.48.0":
+  version "2.48.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk/-/sdk-2.48.0.tgz#7e69e016e5dbfb679b03a7c885d9e351b8e01e9a"
+  integrity sha512-aU9ySwrOiJ8LxFDu99AXfmkAr/jvHkDvJcMeiQLvFt9zj9JXmYQDqK/7dqE/Y2lhjaq/7nnGl7Ii8gaw7RUZEQ==
   dependencies:
     "@scaleway/random-name" "5.1.0"
 
