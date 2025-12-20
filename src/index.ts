@@ -13,7 +13,7 @@ const logger = tracer.console({
 
 let IPS: string[] = []
 try {
-    IPS = JSON.parse(process.env.IPS || '[]')
+    IPS = process.env.IPS?.split(',') || []
 
     if (!IPS.length)
         throw new Error('No IPs provided')
@@ -23,7 +23,7 @@ try {
 
 let RECORDS: string[] = []
 try {
-    RECORDS = JSON.parse(process.env.RECORDS || '[]')
+    RECORDS = process.env.RECORDS?.split(',') || []
 
     if (!RECORDS.length)
         throw new Error('No records provided')
