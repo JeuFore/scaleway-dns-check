@@ -49,7 +49,7 @@ const checkIpHealthCheck = async (ip: string): Promise<boolean> => {
     const controller = new AbortController();
     const timeout = setTimeout(() => {
         controller.abort();
-    }, 1000);
+    }, process.env.HEALTH_CHECK_TIMEOUT ? parseInt(process.env.HEALTH_CHECK_TIMEOUT) : 2000);
 
     return new Promise((resolve) => {
         fetch(`http://${ip}:${process.env.HEALTH_CHECK_PORT || 80}`, { signal: controller.signal })
