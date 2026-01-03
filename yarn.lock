@@ -171,422 +171,426 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@scaleway/random-name@5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@scaleway/random-name/-/random-name-5.1.1.tgz#d24e5961841f4fd1d680eb17dc2b7d04484d04a2"
-  integrity sha512-DelRK+56UBUEoRr8pQGwTE7oyC019pExis6iG6zZPcjuz4nLbMB5LIosmclnsvajfIBEQiD1Dv9JI/MgnPwygQ==
-
 "@scaleway/random-name@5.1.2":
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/@scaleway/random-name/-/random-name-5.1.2.tgz#075b96546f6d91e45ba4df5a7ed6406c9e25922c"
   integrity sha512-WBiqKPnJdncl2mcA7t89rZrxaSIRF/eiyo69sbIiVsOj413+zg3Royzv4ddkRdNTnNg0l21GZpA6O8pfZyPAQQ==
 
-"@scaleway/sdk-account@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-account/-/sdk-account-1.2.0.tgz#27c0701c2f156654beb64b7991668008b5934ef5"
-  integrity sha512-Mkk0nyweQ5FxYVbPAV4nbJPioT9ubahVpUlIQHqXVn2xXnWRsDlkm+R+LO4EitWv04OPg6yQtq938U2YNl4kBg==
+"@scaleway/sdk-account@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-account/-/sdk-account-2.2.0.tgz#463ab5bdd29ef688476d25695d2df55a28013620"
+  integrity sha512-hdvVd3OC7mGV6Sny83sKOxRSprOx0BjkYKzN1dARwSQDrHgq6JIRfG/Pa/klAr5NpRzFHOy8xZdok2IxftVHXg==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-applesilicon@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-applesilicon/-/sdk-applesilicon-1.5.0.tgz#f8214dbe80612f2eddc78e229dba6f1384a01fa6"
-  integrity sha512-FDR57DD14I3bW7AJDJ4ll4a4nNIs2z8D3mOH0u2moj1mdqhidoRaJybaXin8mj8tLtqeNQF05AsiKwNswQScoA==
+"@scaleway/sdk-applesilicon@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-applesilicon/-/sdk-applesilicon-2.2.0.tgz#00be16585851fbf34f0e138b5be072f74d6dec7b"
+  integrity sha512-8UbzuaPKSh9zGFbO1YqsJeDD/NTA+ELi844skeUnCrG4RyDKQz/fkC3DDAiFZEJ6B6zMe2SC72iK0Lxnky4SgQ==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-audit-trail@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-audit-trail/-/sdk-audit-trail-1.6.0.tgz#59bf62273a313bca151cdc0aec0b2ef47c298903"
-  integrity sha512-bPc+HDStsbaDokUQltjk/Ykvlu9qjR8qoUFUzwtOh9S/0IfheJcYtQcgkC8MYnsD7GXVq0+f6Ma2ntRaSnO1vA==
+"@scaleway/sdk-audit-trail@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-audit-trail/-/sdk-audit-trail-2.2.0.tgz#eabbbda6039c4b322ebf8333b8b8e4599cc2fd9d"
+  integrity sha512-9P+gfpyNo0oltL/G53xlxk9XHQ8bXVfcc18yqEsKfiKCEtkLGRJdDvSVZPhbKiO+8wIhUYaXFwH5yVKCSwBT/Q==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-autoscaling@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-autoscaling/-/sdk-autoscaling-1.3.0.tgz#26865afa8e6d9d532ccd2c791ed673ec73939621"
-  integrity sha512-xYWgueXFIdFHwFZNvDZk7Kh9u8dHqVwJplvWj4FG15CyNpP42AObm9itDEuYxJ1WF5RGFOtHsszNzxzUOikF6w==
+"@scaleway/sdk-autoscaling@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-autoscaling/-/sdk-autoscaling-2.2.0.tgz#18f31167692e7c9d16418cb704e5b191998cd937"
+  integrity sha512-CjiA/vpcCchdRhENJbzInmthAJfN8izftP2ONld9Kd9htza+2LcF8+Yl+8Ai/hzL4Y5exEC5TMgyqsYsjsYXhg==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-baremetal@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-baremetal/-/sdk-baremetal-1.3.0.tgz#803ca848c3302a97cbc85c2f108528046d3a432b"
-  integrity sha512-pNf62hkZG9V1294Rx7iWFWMW8W7GMU/da92KnR6EW0VLy6AzbRyEqIHAs718eiMxLnuVjVQpsB8jXc6ipyrcAw==
+"@scaleway/sdk-baremetal@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-baremetal/-/sdk-baremetal-2.2.0.tgz#a9741837d1b2baedff63f5efde4f842497b1ca77"
+  integrity sha512-jhA6zqQEuDPU5a9h3/yLbLc3RDDGSDEaZLafphJ1yysgXUnag1SVVePwYEKiIevPNHgBU8R7JdNxVaznjsgZ1A==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-billing@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-billing/-/sdk-billing-1.3.0.tgz#c09c384660b80e351c3e93963c7013289dddcf6a"
-  integrity sha512-4x4XrVxwcZr75riJsys4heCG7UddEQb/vkF8K5S3XcS8YqeFIM/YBo1q4KGIokbEjDLYQDoy0X97eA+lRMDtrg==
+"@scaleway/sdk-billing@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-billing/-/sdk-billing-2.2.0.tgz#55d6a93ee0e07ec4419d616ca8ea6eb5aca276be"
+  integrity sha512-ivTYhJgnvfJOh5QJE082aBqPxU0P5hYVpQrPBO13O7iIZhJKbHRB4ew5F9pLUwFvN1NXm3HIGl9VtDJ5Nk7e4Q==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-block@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-block/-/sdk-block-1.3.0.tgz#55914aada3c6ee96196bb81b1e3713bf1e55308a"
-  integrity sha512-/UhrDu7nO4thXsdUjWkU8j+Wu+jPjKLuB3cgKWY8FVTaRgptePs07W2LHHsMcAqvea0FBDpbNAaOi8UeiTJQkg==
+"@scaleway/sdk-block@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-block/-/sdk-block-2.2.0.tgz#964eaa808cd79a45ca3b49b3776f9aee6397bb07"
+  integrity sha512-iySNNbH7kMtBj/2yC3ELmsgm3MLsIYYbxHipPZUleH9tlJiIr5DTl/WJZ05cvXikKxOPAu136/ZBsbyjuDNuOw==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-client@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-client/-/sdk-client-1.3.3.tgz#bfe3c9f392c2b3e25aa6902fac8e05e46cefeeee"
-  integrity sha512-IDZIorxxrjCOv6ozlCeQmooKSviw91sHfAaCeIZ2T3AlZAo8QCENr6IxXyRPKzfLt4EMnQYhkcOlSbWZCW4TFg==
+"@scaleway/sdk-client@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-client/-/sdk-client-2.1.0.tgz#7d9b1dccf134cf54001d632f3939377d9bb3f920"
+  integrity sha512-/2Sw30paGDWyY+UMZeynOIoJlwCtlnEf8H91+HtwAffZ+coT5SNqP/S2Mu7eFPT+nsRVTDrnaHF2VCt/FqExTg==
 
-"@scaleway/sdk-cockpit@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-cockpit/-/sdk-cockpit-1.7.0.tgz#47c56b215c0b25fb88716fe28b88767db3896c2d"
-  integrity sha512-3RyOJKwRPBMhnTebe3DSJ6Kkn2S/s2+n6ZSK4QYH7gxGtz8N/BcERn/OOqDcNTW6VS2L69+8Zbx/kBIqoA8n1g==
+"@scaleway/sdk-cockpit@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-cockpit/-/sdk-cockpit-2.2.0.tgz#815880a46be6157d2a7d21a2dae3ef99c1656aee"
+  integrity sha512-nltcaS2M+X9hLpH+wfMvAo7MQOgWJHWPHobKP7gcd9DLWY7gj8Wb/G2fX4y5BoZJnyY5FX3+/ouUKA4Wg6nPvA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-container@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-container/-/sdk-container-1.8.0.tgz#9e8b0a36a4e5f0e72380a22841e65903b5c322e2"
-  integrity sha512-b4CVtny15R6fhDZsdTI6ECKVqKcodRikjdOR4jxunPC9JEn0v1jfw4KH1k0WXt9SU/e61MwVLmnrIAuoBlvs5A==
+"@scaleway/sdk-container@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-container/-/sdk-container-2.2.0.tgz#40a825897c64d66a8a551e679e45ad41d3798e15"
+  integrity sha512-4hAvglqeRD0bdiZhguaa4mRpnLdM+qdWFs4fuRkiQwDC5penqKmbk39dAjE0wWaB7TD2C3QC1KY1TmaAdPiNpQ==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-datawarehouse@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-datawarehouse/-/sdk-datawarehouse-1.2.0.tgz#419efda034a17d308291c5c4d831b290bdb1a087"
-  integrity sha512-UDaGQZXovUQSG7NisLAWZqeml20OBPOQjkDt6MOfEZAp2pqCecWBqC6824hP5oMXQuflPfKmRRtcwUTF1MRS2A==
-  dependencies:
-    "@scaleway/random-name" "5.1.1"
-    "@scaleway/sdk-std" "1.2.0"
-
-"@scaleway/sdk-dedibox@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-dedibox/-/sdk-dedibox-1.4.0.tgz#198054e67483154df28421fd95f060d196f714b7"
-  integrity sha512-pA0gpexVDJiE0I6VR2i4d/T6JhbJfk02vL+ES6AwOm0aCx+egbOJBWpZYdV9Yt5BwmOD88eZkM3ZJoDW5B5Q1g==
+"@scaleway/sdk-datawarehouse@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-datawarehouse/-/sdk-datawarehouse-2.2.0.tgz#4525c6ea9dcf55102594186fb936ffe656d535c3"
+  integrity sha512-7xTygGMqJ4/PvMHacSZHovKrcfPO9LiHeygYozjFDwoAz7vl0wQF/9EN6FC//L17YhgUDtAJVbU1GWuoD6KlZA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-domain@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-domain/-/sdk-domain-1.3.0.tgz#2dc4f77cf435daad1c2e1550939cf516e97f93a8"
-  integrity sha512-iAnappLVRuXpBGHtImNiwkMvGyUcs3PDJrzcOzEE7OSWMOJnUXB5HJL9SfGx3eopmXllTGXXMB7mc0X5fAB6WA==
+"@scaleway/sdk-dedibox@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-dedibox/-/sdk-dedibox-2.2.0.tgz#74afa738dbb1dbfc854bf51ae57f8590180e60fc"
+  integrity sha512-JnGRmeTduAfNn9ps0JRy5amxlvURuOs/NwAPLH0aP3CeivEoTdN/zoUabMXFKZbtqyasvVP2sIRmfv+vP2PDUg==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-edge-services@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-edge-services/-/sdk-edge-services-1.4.0.tgz#218fd671b241e57b3e9d42eaa74fd73b10f73e3a"
-  integrity sha512-YtPElqFDIOiiT91RHJkeRv78xWa3fm+jTU1NUK1zgNi38KUOWGpVPnZUhZE1kG4NbzGaIzb5+zN98XMinU/JKA==
+"@scaleway/sdk-domain@2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-domain/-/sdk-domain-2.2.1.tgz#b31671137b24aa37db6df5f1520ae723c4bc1372"
+  integrity sha512-I9FYgiWvzJoTXA5b0F6YlknocX6o2+w3e3eDi8ryxPAuNZ8w6C0aGFXyLs81KWG/coXAfJDZ+r+ytHEA+mfZNA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-environmental-footprint@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-environmental-footprint/-/sdk-environmental-footprint-1.2.0.tgz#30fb4f1df6307d7a4bfb8bfd78fa69eed3ff3b9c"
-  integrity sha512-nSabzMEfJJK9q83/6En+5oNFiqX/Dqxq/qCgVloN9ktHn61VF+wlvdI9+GZayBQBu3Azbx/LKozYncXLFdJAsg==
-  dependencies:
-    "@scaleway/random-name" "5.1.1"
-    "@scaleway/sdk-std" "1.2.0"
-
-"@scaleway/sdk-file@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-file/-/sdk-file-1.3.0.tgz#2cf2d2e1c61eec02db5728fa55b80608cfe3aba7"
-  integrity sha512-26b4BB+RSWfgpGVw0DllorannVqh5kbPq83Cez91+tyagl4hKQrQ9610rH9+otDK7wmLWIRFo/4rVOue9+E2+A==
+"@scaleway/sdk-edge-services@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-edge-services/-/sdk-edge-services-2.2.0.tgz#b195f8edacff13d7f1547a5f26e5e3b172df83ba"
+  integrity sha512-6hbGDhjlgLzNfM7iOSq9fMoFwdZlswH3wSvwnzKpi7EMxLrOHKY463UP3Ufzju6zLGpHmyY4YA4vsFv1Cllc5Q==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-flexibleip@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-flexibleip/-/sdk-flexibleip-1.2.0.tgz#23ce01a644e6d548670ca7e15ca6667d73b0a65a"
-  integrity sha512-Nvb7vx0rf6jPhKnHMh+SvziY1tWnH0L012Bo0AUU7KwCkZ8eNE5ruDLVliXGiqsOS5ns2Oiasdk5FFDO7kJbMw==
+"@scaleway/sdk-environmental-footprint@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-environmental-footprint/-/sdk-environmental-footprint-2.4.0.tgz#67f9f4a930db247306ba2ee6243e1b487c4a6586"
+  integrity sha512-bg6NZ9WqwkVl5K9GAnAqkDnce6f6Jp/UGA6nxueM7x1pxqO6QnaZ4uPBNo7jUvCS/x5E0exZyVz+qq5y8BMaUg==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-function@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-function/-/sdk-function-1.7.0.tgz#010bec8b1ce3b5268f976c67e0785fa10246379b"
-  integrity sha512-5zcngpEs3cjYQ7PtLKMZ1FndMybKff7Fh5C8WCC5lVOZz6/hPgguH2WG5TfQwiPgKVuPI1yfSmd5Q6xG/obWWw==
+"@scaleway/sdk-file@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-file/-/sdk-file-2.2.0.tgz#64cdc7643996403ea1fc02d3514831abcbc4016c"
+  integrity sha512-it2FIijwIZOg2r1YLUu+4ekzeaXxjylZ6xwBJ4nYWEiyntxPeI3XjdaPczcLWTaKWG9ehMfReYQNL5k/kfy35w==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-iam@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-iam/-/sdk-iam-1.6.0.tgz#63da5f38c16653af1aa22718f38909734e4f7c3c"
-  integrity sha512-bE8o9ALIh/D6kEk9L8s9ZgfDZvlt9M6nrw1ODPNgeJjERTINsnrYZbAf8sapyTfP2ziClPrs9GYkR40ujV2tEQ==
+"@scaleway/sdk-flexibleip@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-flexibleip/-/sdk-flexibleip-2.2.0.tgz#98593d3b9a6cfd48a0249df9f6c8b2964b8370c4"
+  integrity sha512-XA0LH7EuphPjIrjhHYwrnUislwC725tGx28b6Y1In/FPBXRQ9wL1uoQGtwWzbvuoJ7psJ8/wHh5gjFwXa5CDCA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-inference@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-inference/-/sdk-inference-1.3.0.tgz#ff876700d08c57ffd88d79a53743e09de01eb1be"
-  integrity sha512-S8M8ebY1N4Gr9l8pac16Z3IO2MxOah7GEzijf1tPKZ6vOkeyC638G7sBCxoryKjT0Km7wWDQ0wRq75DzxQjvXw==
+"@scaleway/sdk-function@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-function/-/sdk-function-2.2.0.tgz#af55dfc4b33d1d96c16bede7c2fc4aaf9704a3b1"
+  integrity sha512-n58b1h7zhzNJinlmFqTG5xpY0TqKNoG0nTcK87e516yA7Wc+mumuMXmQ/CGGeL4EeU3Rk5UF8QRI7EL50vac6A==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-instance@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-instance/-/sdk-instance-1.4.0.tgz#ae9e16ad43438a137ae6d97728ab7e9ef801510e"
-  integrity sha512-zN5W64GO3JW4V4bylGQnZEyucDbVfe4yWy3fmHyzyrdLavtBIBkZ5ofIjvTXT46IF/wPCYWNNn/Z8FnI3Z0N9w==
+"@scaleway/sdk-iam@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-iam/-/sdk-iam-2.2.0.tgz#e8a54725152ad8fb6da23d410b6a4dbc71041c92"
+  integrity sha512-FjdVCIvWoI6h9mgP5xhnKUGwlTpE1tUTop4sthoGhoQrO5tngv+8FLTdpFMItefhB71A0LUY4kfdRWoRQ8VuYA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-interlink@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-interlink/-/sdk-interlink-1.4.0.tgz#9054152378f3a77bce5bb4db03740244d2eb32a2"
-  integrity sha512-fptl+39J++v4K0bmc1QFAGSySveRu+8FdrYwtjbBM9seBFa4Yqir6BxLy/o1YYKXFAuYeh5bQDqiqRrcA/51uA==
+"@scaleway/sdk-inference@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-inference/-/sdk-inference-2.2.0.tgz#0676f40f341dac381e355ae80743e96af31236e6"
+  integrity sha512-VRZUm5p5LDecXb6yxnXvo4hvztm5czPBniZTde7o5tv3vfBQZfYIXpNHGufK40+cLewJeroRcNNftaN2aE7b+g==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-iot@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-iot/-/sdk-iot-1.2.0.tgz#97941fa3e2a0a5c0125bf340e6b1cb223242d268"
-  integrity sha512-YDlejMm6ir8WGDWsbHw0bXJ/GA0/9SJikHz5lfs217Ckqg/sMtM3th+r4+loOruxLjs+GuPHrbFOLQERYDxgIg==
+"@scaleway/sdk-instance@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-instance/-/sdk-instance-2.2.0.tgz#dcfd1d95b4b4863af992ee0515dee1e838201fa0"
+  integrity sha512-2SAd9415SpNvRDQxAT/1M5LlyKr3VeuNYQWKee10/UOgm1S882fLDMSAGkN3bX1vp1Xt7F3DAu1usxuG+1/IzA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-ipam@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-ipam/-/sdk-ipam-1.5.0.tgz#393f7dab9910ef8f4a913f937461ed2b75e3ef09"
-  integrity sha512-uVkIJkjuxG7eE3obH1FFGMOf6x7z5afgKQfEQSxljJdFR12bmPQwrb8XkCnohlUwHwoOUdOMrnbod26oQ13kDQ==
+"@scaleway/sdk-interlink@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-interlink/-/sdk-interlink-2.2.0.tgz#864aa9eeea114a284ce5d43234f28656afd464f8"
+  integrity sha512-J8lP+/XGiHwagmyBdAwxaxk1uq0G+O6artx2bBpXs/uf4dZf/S7h3htNLwC0FDPWJtaqHr+ObE48KReQlN5uxQ==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-jobs@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-jobs/-/sdk-jobs-1.3.0.tgz#c2a82f3605939b1cd147707fd8246f121542a9c2"
-  integrity sha512-PBZO7i7oRGqXirLlEpdAAUsRs0qXPHOzLaUQxFhqqPXHXWPCgiOhoiU2tvv2J59jtmOgDW6u/6eKGH8NAmRbQg==
+"@scaleway/sdk-iot@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-iot/-/sdk-iot-2.2.0.tgz#d3bada9e4fcfde4c08740e88e24b1caaf6825a84"
+  integrity sha512-CC5+LKN4Yud3C4KP8O0aYMaQ1qLD01I2MXDn/VwixIiVa1M8sD/zQJjQqG1QsRbDiwwAUA+7oZdJxuiGTJe/ig==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-k8s@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-k8s/-/sdk-k8s-1.8.0.tgz#d6b88e73a9a962f4b20c3040d24f419a30382fa8"
-  integrity sha512-7bv4x0iuTCq+ROHBV8MxiTprWV/CfKI8YsuQJCoNQDWEIq/xEGzbiFIPeamTZmLjswQvsVnjxoQQvkUWJuMRIA==
+"@scaleway/sdk-ipam@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-ipam/-/sdk-ipam-2.2.0.tgz#fad66d3e5605f8d4017041d5d39a6a48d6e969d8"
+  integrity sha512-bXSjCCXQMaqpnxPRBfE/Jjm+d75MK4utyOsrl4hmsL0T9KUzQOmb7K8MxzLMaadvm+Mg8QMrusHpAexGkQlzcg==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-key-manager@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-key-manager/-/sdk-key-manager-1.5.0.tgz#c71b1f145d3b9f13c4dee34e7a7d197c90d2cfe7"
-  integrity sha512-vQ4FJYYjMaA7scWC6t99oQl9DUzXpx4Dndf3NqEg31OEykDKUffGmmGZqvGhraEicFTOdNmuXFkt3EqvoQbDsQ==
+"@scaleway/sdk-jobs@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-jobs/-/sdk-jobs-2.2.0.tgz#da1c618314cf12cc7fff1b57c81aba8fb300c4cc"
+  integrity sha512-7t/BtdIS4p9A+m0mNCWme2R6PfeHtI3rGZpJTWsWD8/Jkvvxqp7TNp6oLmFYMRLzQkXSjgYO2qXwlgnSCeIa3w==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-lb@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-lb/-/sdk-lb-1.4.0.tgz#84491a5d15f063e1b8bf9daeb947ba1f538d9864"
-  integrity sha512-R9UrZKXOLw2p81h0HBaHWlgLm6Ec//jkkX65pHZC9yKpgVAuQXChunlyE70EOvc326t27MYlUsq/G4zbc/MFfg==
+"@scaleway/sdk-k8s@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-k8s/-/sdk-k8s-2.3.0.tgz#deda532ffd7a7ca6deef6bcac80086b290ce1d2a"
+  integrity sha512-5mFnQJei8uAcd6Ky94QSq/RuyUnFUl+lH5iSAmV56uJUavf2XshVxCLpW1HHn8Hm4fCLDkbxr9EZ0mvaqRZ8Jw==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-marketplace@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-marketplace/-/sdk-marketplace-1.2.0.tgz#819c5e11c2777a3d4b9cf4f8aa88e25ec88e0181"
-  integrity sha512-Xry61M8/5JHid+TFcQFvGLC7lp6uSxj2aBflI149lWgXNFml9kHbx1eg2LU2bEf7zgVCJ2IRu7mhwFBOMKM85A==
+"@scaleway/sdk-kafka@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-kafka/-/sdk-kafka-2.2.0.tgz#48a2bd63d1155b4f7f3f27ecb67c92db2f175ed7"
+  integrity sha512-aSIvS1K5IkCfN/LRBLE9w1dQqEjkkIg9TOOmc2MWu6zOsjkjvdInnGqxh9EROq2IZhtlFVCabjRsYPUTAInwfw==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-mnq@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-mnq/-/sdk-mnq-1.2.0.tgz#304421b1068c0a195797dab7aaa1468beee83e5a"
-  integrity sha512-7Oin1c3/0Awr2LcoEppE9alYvGc7CdUpPakq4tXyukkEmyLCbd5kdBvmlk1eNh0ZYG79jWNeCmXZYJ793LlqFQ==
+"@scaleway/sdk-key-manager@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-key-manager/-/sdk-key-manager-2.2.0.tgz#3273d59e15f27b937690127c363d148bfbc89f5c"
+  integrity sha512-5s2FcHj3O48hhLXCR4+NonACbHKhI4bsof/ont03r07IkJgM0HOaWwLplfNFlGpGV/LOCWMmsJ0kpSKHNHGRjQ==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-mongodb@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-mongodb/-/sdk-mongodb-1.4.0.tgz#66313a69d6038c240c638be28ee990f209845a58"
-  integrity sha512-SOLd3QmNcjCtIcIoNWMppPzW4f4yUaQ2GbjMJZJu369HNWTYVcLLHRMT3MUEBvaYQgbYuh6bYn/3kiiDVlmMOA==
+"@scaleway/sdk-lb@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-lb/-/sdk-lb-2.2.0.tgz#20b140415ff0e5d1f5b2c4727547d8603b82c5e2"
+  integrity sha512-t18MnkCscYs9JeJHd2t6xRQBltFD3GJYU4HSCE7LiVDzghpGGm3a86cXv637+e4OoV60pQwowqpjnUZOihbqAA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-product-catalog@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-product-catalog/-/sdk-product-catalog-1.9.0.tgz#5156f9ae1e410258e5de38975ca8b1f5c6bdb024"
-  integrity sha512-/ViSj2X/2FJ8O8A4N0v0BxzeUNZ03aZ9jEYU5LHzlXG3d/x74eSMGEbfti70220k1wOO9L5FY9MCr/8OYRCahQ==
+"@scaleway/sdk-marketplace@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-marketplace/-/sdk-marketplace-2.2.0.tgz#469038e45408ea2c1ccb168849f3da38886f2b12"
+  integrity sha512-887xfDDCuRa2lyfbCazbQpDtdYbwHZJc2nOhiz787hbkfYXfBb/mayYfpX8Rwi/lWUd9BlsnZGJDSLzOGqfuNA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-qaas@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-qaas/-/sdk-qaas-1.5.0.tgz#c573d29dd3d31758c43f6d3152cee48328e5abe3"
-  integrity sha512-/iU6WG3IT5wZTTjDkhhNnf165bLZIt44xQP4jrrNLwqfD8DW0bIHB9O69T0v3G6v89E5QbLH4zQIhHLrfSLXzQ==
+"@scaleway/sdk-mnq@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-mnq/-/sdk-mnq-2.2.0.tgz#632a686c79cc3ec79f1a2fdb6e46b4e60be91ae1"
+  integrity sha512-sSO+TjRyoPFSq2nImR6Q9MIybMISJ4PMEoQv7gux8Uh/4nRQeM2z6MF/ybqH673Cd7yKvQ+W+nT0eOr2PfYBoA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-rdb@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-rdb/-/sdk-rdb-1.3.0.tgz#d2fc0ec3f48e24d8356bed908358395f6fe34ab8"
-  integrity sha512-4XRMeHPdZAaB3nLr5GLPLd60GBdVzo7S1FMtNys4jIlo6dk2pBthzdnLApOEYedkujFoMtf1guBTQkQNGYhdtQ==
+"@scaleway/sdk-mongodb@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-mongodb/-/sdk-mongodb-2.2.0.tgz#d28d739c83944042281e0f414d3edac22f30e47a"
+  integrity sha512-hHq7MAuUzLw3N7QwbVKEyEW6WSWGgb0dz+eLHammAr9gIgYTNANbxZFGNqRvtjXLhGbQ1g72YjicRG1QGJXIXg==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-redis@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-redis/-/sdk-redis-1.2.0.tgz#a2d70b0dbad9d6557700df9eb4e18c1e57a5ca01"
-  integrity sha512-dbvGal0keM/OFPCtqauQ5bw8VnIdoKjXvsfku3Qy09xjw/cUOO5q4MpqKhJ3TbtG9AM7uQtT5tc1nb57YYDnvQ==
+"@scaleway/sdk-product-catalog@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-product-catalog/-/sdk-product-catalog-2.3.0.tgz#c3c5967f8d1c2b6e50e9cb5e72dd9167830474f2"
+  integrity sha512-PvYkeqoo1B60TvKw210IWl+WtMUsCA4JTNeia35jh1m/H5u3kz7NymmcQnA5LjipFGgnHlSP68DX8HFS/4aAdQ==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-registry@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-registry/-/sdk-registry-1.2.0.tgz#2c5dad7fa56aa2221b72844ad75d19ca14cb02ea"
-  integrity sha512-5THV6x/2WQwLbZwndEcNs1vrRMovJyCiPFeMwGDnzp4bVyVR1WprmMR0AILSKLrbZku8SSRCYPhOd+16tQnEQQ==
+"@scaleway/sdk-qaas@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-qaas/-/sdk-qaas-2.2.0.tgz#04d58f5c58d1d2f33fa081b5c911661f2362fcf7"
+  integrity sha512-IomGWOjIM7TE2WVMDQu2q2c1UZUujC7f6d+HvMVV6Nvc6nmOVchpz0E+9fMW3Iwc/UTaxEJswZDhvMUpyGr54A==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-s2s-vpn@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-s2s-vpn/-/sdk-s2s-vpn-1.2.0.tgz#d9cc367b87e4421ab2af5c61d9a6f97799d2001c"
-  integrity sha512-2IHYrR+w8mQMLEPf8b9BFhGZiymz8+KcK4rkcTZjFLOQ6lFYIgE11GARS6mpvXCea78lCS674LYgjVVY43xGzg==
-  dependencies:
-    "@scaleway/random-name" "5.1.1"
-    "@scaleway/sdk-std" "1.2.0"
-
-"@scaleway/sdk-secret@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-secret/-/sdk-secret-1.4.0.tgz#477bb096ca9903ed889e14cc176a6935de8c5792"
-  integrity sha512-JLkOQGtxhx3u/DdqSVEf5ZwvbS+gL/3SyR9FKE6BnYPd4HAafJxRWmwWuZGvTxXll6xnU5PTEvJ9X02GTL9ZwA==
+"@scaleway/sdk-rdb@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-rdb/-/sdk-rdb-2.2.0.tgz#1a1c9e13909ea6d66772d05f58d335740b5f2ec8"
+  integrity sha512-PfVTGDNgOtUx9WxEhUypLijDGLYr8b6NSHp3Sbb+cFmEa2lEIGIcn4uhh+gAg4VA7UoGmJkt/s5+Ahgdm5BOeQ==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-serverless-sqldb@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-serverless-sqldb/-/sdk-serverless-sqldb-1.2.0.tgz#70979cea3db5b5c53d27e5cd1f321eecbbaea3c0"
-  integrity sha512-e97N7kwI8DI+2H2funxbz8O5GQX2puG7LHYEJPxWV/5AYuzkLQGQRebf9Lbync2XZEifCVSG3mfUXjoCRhMhNg==
+"@scaleway/sdk-redis@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-redis/-/sdk-redis-2.2.0.tgz#9ba123ea43cabc4f75f927ea5444e24365b0e4b6"
+  integrity sha512-8ZoQzz3xwBFsxj/q+MVguQCpnngqb1zR0nuTtQ2RrEVFz6Hy9o0q6OiUP6vk7gGHtb3DAyrrsJH52/U1O7WXzg==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-std@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-std/-/sdk-std-1.2.0.tgz#eaacba144da668454dff70f1f334591125fcfe2d"
-  integrity sha512-sBZRK9jM23l1+Gy3s7hFUyme6JW62Xq0OkmDa60IiSa/+yzeiwVvNSuTeo78Bjwd0aaGR5FcfnpdVDqqBP7vrg==
-  dependencies:
-    "@scaleway/sdk-client" "^1.3.3"
-
-"@scaleway/sdk-tem@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-tem/-/sdk-tem-1.3.0.tgz#9c9cdd7e6616d8db6c28105085b3bcff60b9d61e"
-  integrity sha512-0P8Cqep752+1X/PpAqQkYcUQcKWRaYbCpCXoRshM3cOJjqE0YQERuSMgIZjRKdPutc2/MrsLqh3TNSzPHIMVBA==
+"@scaleway/sdk-registry@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-registry/-/sdk-registry-2.2.0.tgz#3e0904715636e301d881c0c87c40d4a00614bf0e"
+  integrity sha512-aiRqqHHW5Y28FFhcWsfN9EoFAuu82d3REg5oQOXgSOgs7zPg1JQRXWHKu80d9CCPpuHdTv5gX3tKSkCIHLtSDA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-test@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-test/-/sdk-test-1.2.0.tgz#5dc8de6a2b89b33787dbd462d30646f63a723f98"
-  integrity sha512-jceQMWgEJRq8Xaxkbg0dep45YzgQlr4JTRlhA92JHPFXTTXA5HmWKs3EkN5JFtUDHzdJOSSFhDE99ULq+7Br6g==
+"@scaleway/sdk-s2s-vpn@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-s2s-vpn/-/sdk-s2s-vpn-2.3.0.tgz#ee74131c1004f8fa61020f699ae42f3f6a16295d"
+  integrity sha512-65VY/Bq5/REG3GvNSe1kBMD+NJwTzQeu3qnFLPHRR6FIppeYosBPhyczxx//hfKIFlceZWk2YBongezZVt2log==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-vpc@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-vpc/-/sdk-vpc-1.4.0.tgz#eae7ace5960eb52ed83f7fcbe5368b54a4d960d9"
-  integrity sha512-SNNiwXRtAY5Wch152IeH3QL0PNM/8qqJYWUIClEdVHAWjlwI59X7eEkf4joGjF1eElF/RX0RCUoPvb32FaNPlg==
+"@scaleway/sdk-secret@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-secret/-/sdk-secret-2.2.0.tgz#99abf7fe11bf04ee800820e9408e8e79e83eff67"
+  integrity sha512-Xf0mcVcxqhMl1+GuXj6NsJnXjMcNTEQAeqaAJUjNgqtWzZ9Y/zLe7kY/a8Ayt2FGlrTQLWVC5D/FQqQ9cj3DLA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-vpcgw@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-vpcgw/-/sdk-vpcgw-1.2.0.tgz#0b0c308ea7d98b61880cd5874bb6f99471ba9608"
-  integrity sha512-UzdAiuD9DL4J7tTANPfFPK0RNQ3aPTPKPNZbSGN9JlfWFmfvGlLr11LjF6F9uAFoXifJ9BRnRP4Tt8OKyHPl7A==
+"@scaleway/sdk-serverless-sqldb@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-serverless-sqldb/-/sdk-serverless-sqldb-2.2.0.tgz#779aecb11446346c604af6a5048458908abf25fd"
+  integrity sha512-x22iClIavEgF5qgqTsJjt5upjm2x3C+hS99vuk0mV3aMsd7R6wrjhdhVSOX915o4caWgWGfnbaVNrjSj4QjNqA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-webhosting@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-webhosting/-/sdk-webhosting-1.4.0.tgz#c332d1fff374596ad6f1e4164a3b93adcba3fbce"
-  integrity sha512-wT7DOlPYjdAvC6dT1XBhjnMuhxiH+PymILZOjiV1obwuHqvbHtrQsNTjai2Q1zcpIXxDZsT0dtufWhQvSeizug==
+"@scaleway/sdk-std@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-std/-/sdk-std-2.1.0.tgz#112492468d16a37eeebb530a5f7a3a4d9e9c5174"
+  integrity sha512-HFgYPp9NMtCLq7cXelEdGEqRNRzanCHeCa3P8X9R0hLph7ew2Jk3SD+tSCoQWrREgtCppElh8upnKF6/SbHfXA==
+  dependencies:
+    "@scaleway/sdk-client" "^2.1.0"
+
+"@scaleway/sdk-tem@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-tem/-/sdk-tem-2.2.0.tgz#46f2d4d50310a23ed1393547dfaf93a6ca18d8e0"
+  integrity sha512-pUXzjn+z5h5FKRY+Ytr8VmnQZDD96KGd6ilJyPwq4s0s5UjB8YMGQSx+2SEEFJQw7TtA5BkAmpD+W8aglwHJLQ==
   dependencies:
     "@scaleway/random-name" "5.1.2"
-    "@scaleway/sdk-std" "1.2.0"
+    "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk@^2.45.0":
-  version "2.78.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk/-/sdk-2.78.0.tgz#dc3d69d037f2922c4a246053048d079ca0ce24d6"
-  integrity sha512-w3YKY2jJFvhftzzpFmLlzgZLHDkaofsh/W8F985HNsPupZrajoAKt1RT9OC+LT1n6u2VT4ICLxtci/gZ31TqUg==
+"@scaleway/sdk-test@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-test/-/sdk-test-2.2.0.tgz#5bc244a58d76ec016f8b6310149dc5abc6897a9a"
+  integrity sha512-ectVcmqwFJrNUuQxXpp8eeYaW6FrwPrQa1j+zvWXJk0wDo6BDoH8tnsfJQcqNNFwlqSSSTQbEbQRsIUqgS5rvw==
   dependencies:
-    "@scaleway/sdk-account" "1.2.0"
-    "@scaleway/sdk-applesilicon" "1.5.0"
-    "@scaleway/sdk-audit-trail" "1.6.0"
-    "@scaleway/sdk-autoscaling" "1.3.0"
-    "@scaleway/sdk-baremetal" "1.3.0"
-    "@scaleway/sdk-billing" "1.3.0"
-    "@scaleway/sdk-block" "1.3.0"
-    "@scaleway/sdk-client" "^1.3.3"
-    "@scaleway/sdk-cockpit" "1.7.0"
-    "@scaleway/sdk-container" "1.8.0"
-    "@scaleway/sdk-datawarehouse" "1.2.0"
-    "@scaleway/sdk-dedibox" "1.4.0"
-    "@scaleway/sdk-domain" "1.3.0"
-    "@scaleway/sdk-edge-services" "1.4.0"
-    "@scaleway/sdk-environmental-footprint" "1.2.0"
-    "@scaleway/sdk-file" "1.3.0"
-    "@scaleway/sdk-flexibleip" "1.2.0"
-    "@scaleway/sdk-function" "1.7.0"
-    "@scaleway/sdk-iam" "1.6.0"
-    "@scaleway/sdk-inference" "1.3.0"
-    "@scaleway/sdk-instance" "1.4.0"
-    "@scaleway/sdk-interlink" "1.4.0"
-    "@scaleway/sdk-iot" "1.2.0"
-    "@scaleway/sdk-ipam" "1.5.0"
-    "@scaleway/sdk-jobs" "1.3.0"
-    "@scaleway/sdk-k8s" "1.8.0"
-    "@scaleway/sdk-key-manager" "1.5.0"
-    "@scaleway/sdk-lb" "1.4.0"
-    "@scaleway/sdk-marketplace" "1.2.0"
-    "@scaleway/sdk-mnq" "1.2.0"
-    "@scaleway/sdk-mongodb" "1.4.0"
-    "@scaleway/sdk-product-catalog" "1.9.0"
-    "@scaleway/sdk-qaas" "1.5.0"
-    "@scaleway/sdk-rdb" "1.3.0"
-    "@scaleway/sdk-redis" "1.2.0"
-    "@scaleway/sdk-registry" "1.2.0"
-    "@scaleway/sdk-s2s-vpn" "1.2.0"
-    "@scaleway/sdk-secret" "1.4.0"
-    "@scaleway/sdk-serverless-sqldb" "1.2.0"
-    "@scaleway/sdk-std" "1.2.0"
-    "@scaleway/sdk-tem" "1.3.0"
-    "@scaleway/sdk-test" "1.2.0"
-    "@scaleway/sdk-vpc" "1.4.0"
-    "@scaleway/sdk-vpcgw" "1.2.0"
-    "@scaleway/sdk-webhosting" "1.4.0"
+    "@scaleway/random-name" "5.1.2"
+    "@scaleway/sdk-std" "2.1.0"
+
+"@scaleway/sdk-vpc@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-vpc/-/sdk-vpc-2.2.0.tgz#70efe4498daa43ccab321ede99e5d8c9344c3e86"
+  integrity sha512-EiRnrYaUy3D/g9YQ1SuuYJDdQ+2j1ERcGsbK+jcisVLLOa8LNWHZhSyGmHESL2YOs1RV/UWpHRIZ5l9wxkpT7w==
+  dependencies:
+    "@scaleway/random-name" "5.1.2"
+    "@scaleway/sdk-std" "2.1.0"
+
+"@scaleway/sdk-vpcgw@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-vpcgw/-/sdk-vpcgw-2.2.0.tgz#ee93783c740c5c12de6d14b7b3bcd916af2d7a4f"
+  integrity sha512-Y+uzKqLy3HqLqIJX5HR76I1IkD+SfsSwxy/78lMmR/fvYRkv7FIm/fipXxa/g3pRQBkNmpeTh3FY6v2yND46SQ==
+  dependencies:
+    "@scaleway/random-name" "5.1.2"
+    "@scaleway/sdk-std" "2.1.0"
+
+"@scaleway/sdk-webhosting@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-webhosting/-/sdk-webhosting-2.2.0.tgz#372d902507da6bab13d1b089d60ab07ec8a1a559"
+  integrity sha512-y18P1JXGHEe569wMrTCjXmd78zS7bYFXpniYTBlAqfpfV/35LOrn1QAglPwiT5+JcJmaD/gjmiDE8ohu7x6SlQ==
+  dependencies:
+    "@scaleway/random-name" "5.1.2"
+    "@scaleway/sdk-std" "2.1.0"
+
+"@scaleway/sdk@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk/-/sdk-3.1.3.tgz#b00e9769c0b756bc64a2453df67e52aa432c18e6"
+  integrity sha512-o3p336XnTUUSmeX0mH21zT7ynqhfu2ma+UsSGeOONMbb7msRLimsEHunOnlBElTfYa8dd3JN8tVtptq2DYPx7Q==
+  dependencies:
+    "@scaleway/sdk-account" "2.2.0"
+    "@scaleway/sdk-applesilicon" "2.2.0"
+    "@scaleway/sdk-audit-trail" "2.2.0"
+    "@scaleway/sdk-autoscaling" "2.2.0"
+    "@scaleway/sdk-baremetal" "2.2.0"
+    "@scaleway/sdk-billing" "2.2.0"
+    "@scaleway/sdk-block" "2.2.0"
+    "@scaleway/sdk-client" "^2.1.0"
+    "@scaleway/sdk-cockpit" "2.2.0"
+    "@scaleway/sdk-container" "2.2.0"
+    "@scaleway/sdk-datawarehouse" "2.2.0"
+    "@scaleway/sdk-dedibox" "2.2.0"
+    "@scaleway/sdk-domain" "2.2.1"
+    "@scaleway/sdk-edge-services" "2.2.0"
+    "@scaleway/sdk-environmental-footprint" "2.4.0"
+    "@scaleway/sdk-file" "2.2.0"
+    "@scaleway/sdk-flexibleip" "2.2.0"
+    "@scaleway/sdk-function" "2.2.0"
+    "@scaleway/sdk-iam" "2.2.0"
+    "@scaleway/sdk-inference" "2.2.0"
+    "@scaleway/sdk-instance" "2.2.0"
+    "@scaleway/sdk-interlink" "2.2.0"
+    "@scaleway/sdk-iot" "2.2.0"
+    "@scaleway/sdk-ipam" "2.2.0"
+    "@scaleway/sdk-jobs" "2.2.0"
+    "@scaleway/sdk-k8s" "2.3.0"
+    "@scaleway/sdk-kafka" "2.2.0"
+    "@scaleway/sdk-key-manager" "2.2.0"
+    "@scaleway/sdk-lb" "2.2.0"
+    "@scaleway/sdk-marketplace" "2.2.0"
+    "@scaleway/sdk-mnq" "2.2.0"
+    "@scaleway/sdk-mongodb" "2.2.0"
+    "@scaleway/sdk-product-catalog" "2.3.0"
+    "@scaleway/sdk-qaas" "2.2.0"
+    "@scaleway/sdk-rdb" "2.2.0"
+    "@scaleway/sdk-redis" "2.2.0"
+    "@scaleway/sdk-registry" "2.2.0"
+    "@scaleway/sdk-s2s-vpn" "2.3.0"
+    "@scaleway/sdk-secret" "2.2.0"
+    "@scaleway/sdk-serverless-sqldb" "2.2.0"
+    "@scaleway/sdk-std" "2.1.0"
+    "@scaleway/sdk-tem" "2.2.0"
+    "@scaleway/sdk-test" "2.2.0"
+    "@scaleway/sdk-vpc" "2.2.0"
+    "@scaleway/sdk-vpcgw" "2.2.0"
+    "@scaleway/sdk-webhosting" "2.2.0"
 
 "@types/eslint-scope@^3.7.7":
   version "3.7.7"
