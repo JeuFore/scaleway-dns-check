@@ -184,18 +184,18 @@
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-applesilicon@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-applesilicon/-/sdk-applesilicon-2.2.0.tgz#00be16585851fbf34f0e138b5be072f74d6dec7b"
-  integrity sha512-8UbzuaPKSh9zGFbO1YqsJeDD/NTA+ELi844skeUnCrG4RyDKQz/fkC3DDAiFZEJ6B6zMe2SC72iK0Lxnky4SgQ==
+"@scaleway/sdk-applesilicon@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-applesilicon/-/sdk-applesilicon-2.3.0.tgz#a09c259a8a19e7f9f87092dc727cd8912d9fda13"
+  integrity sha512-m3mxghw7YqTreOANnJVmQtXJHQiLXRGYpYTPE2aiGCe72Ad2r9YG2qH69b0JgqxL8rq57Hxwu0nLdQVnVhJ5hw==
   dependencies:
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-audit-trail@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-audit-trail/-/sdk-audit-trail-2.2.0.tgz#eabbbda6039c4b322ebf8333b8b8e4599cc2fd9d"
-  integrity sha512-9P+gfpyNo0oltL/G53xlxk9XHQ8bXVfcc18yqEsKfiKCEtkLGRJdDvSVZPhbKiO+8wIhUYaXFwH5yVKCSwBT/Q==
+"@scaleway/sdk-audit-trail@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-audit-trail/-/sdk-audit-trail-2.3.0.tgz#d1a45b75e7b8b1b17e377b65dced2b12d57baa95"
+  integrity sha512-06CZmEVTApIky9NSFVZrn7UAv8yxwi9bGmaF0bsVg6CRe53svNfDXMAyZU4GZFzvmsDOCLIOJe+3mPfcx4ch0w==
   dependencies:
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
@@ -224,10 +224,10 @@
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-block@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-block/-/sdk-block-2.2.0.tgz#964eaa808cd79a45ca3b49b3776f9aee6397bb07"
-  integrity sha512-iySNNbH7kMtBj/2yC3ELmsgm3MLsIYYbxHipPZUleH9tlJiIr5DTl/WJZ05cvXikKxOPAu136/ZBsbyjuDNuOw==
+"@scaleway/sdk-block@2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-block/-/sdk-block-2.2.1.tgz#aa13e4c2b563d9fbcc582882ef422fa957ff3bd9"
+  integrity sha512-qb5q09Rl49Fjgmy0saDzKwxh1R7UxN/2OrnfZzjeJtmL1UZWnkywjg2sqiQJ/Ynqe1Pi/0NZWwKTiFbxWXPqwA==
   dependencies:
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
@@ -245,10 +245,10 @@
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-container@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-container/-/sdk-container-2.2.0.tgz#40a825897c64d66a8a551e679e45ad41d3798e15"
-  integrity sha512-4hAvglqeRD0bdiZhguaa4mRpnLdM+qdWFs4fuRkiQwDC5penqKmbk39dAjE0wWaB7TD2C3QC1KY1TmaAdPiNpQ==
+"@scaleway/sdk-container@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-container/-/sdk-container-2.3.0.tgz#c6285b7b52efdeb80b7911130f963b963cf5c5c6"
+  integrity sha512-UHVcCyfv1aKQnTSJajJuqM7coOgcOksZ8ippQY6JCD6HuI50Vx3PPP8NZe/M3VHbbeOfb9W0PPc2QgajtLo38w==
   dependencies:
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
@@ -277,10 +277,10 @@
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk-edge-services@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk-edge-services/-/sdk-edge-services-2.2.0.tgz#b195f8edacff13d7f1547a5f26e5e3b172df83ba"
-  integrity sha512-6hbGDhjlgLzNfM7iOSq9fMoFwdZlswH3wSvwnzKpi7EMxLrOHKY463UP3Ufzju6zLGpHmyY4YA4vsFv1Cllc5Q==
+"@scaleway/sdk-edge-services@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk-edge-services/-/sdk-edge-services-2.3.0.tgz#6ae7e87119c5a6e0cd6c7b78111fe2bacfe8cf3d"
+  integrity sha512-yptH8Bj3IGAXglZBtNNWwcoeSgjYZSpgTeg9mL8gmc2Yh33EFjqbMbzLIbsSiOv1NYy0akbUNd8mdlKO58Qzlw==
   dependencies:
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
@@ -540,25 +540,25 @@
     "@scaleway/random-name" "5.1.2"
     "@scaleway/sdk-std" "2.1.0"
 
-"@scaleway/sdk@^3.1.3":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@scaleway/sdk/-/sdk-3.1.3.tgz#b00e9769c0b756bc64a2453df67e52aa432c18e6"
-  integrity sha512-o3p336XnTUUSmeX0mH21zT7ynqhfu2ma+UsSGeOONMbb7msRLimsEHunOnlBElTfYa8dd3JN8tVtptq2DYPx7Q==
+"@scaleway/sdk@^3.1.5":
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/@scaleway/sdk/-/sdk-3.1.5.tgz#1d4ff100dbd37b054c5f3fff96c5d144df6643ca"
+  integrity sha512-tE67YFv5g+Zcsp546idJk/3BcNvYjbE+DwD3ykMRqyMAWfIfrH9FlVqSDy7dPj9J5+42Kk3RFfC62iG2vWxFpA==
   dependencies:
     "@scaleway/sdk-account" "2.2.0"
-    "@scaleway/sdk-applesilicon" "2.2.0"
-    "@scaleway/sdk-audit-trail" "2.2.0"
+    "@scaleway/sdk-applesilicon" "2.3.0"
+    "@scaleway/sdk-audit-trail" "2.3.0"
     "@scaleway/sdk-autoscaling" "2.2.0"
     "@scaleway/sdk-baremetal" "2.2.0"
     "@scaleway/sdk-billing" "2.2.0"
-    "@scaleway/sdk-block" "2.2.0"
+    "@scaleway/sdk-block" "2.2.1"
     "@scaleway/sdk-client" "^2.1.0"
     "@scaleway/sdk-cockpit" "2.2.0"
-    "@scaleway/sdk-container" "2.2.0"
+    "@scaleway/sdk-container" "2.3.0"
     "@scaleway/sdk-datawarehouse" "2.2.0"
     "@scaleway/sdk-dedibox" "2.2.0"
     "@scaleway/sdk-domain" "2.2.1"
-    "@scaleway/sdk-edge-services" "2.2.0"
+    "@scaleway/sdk-edge-services" "2.3.0"
     "@scaleway/sdk-environmental-footprint" "2.4.0"
     "@scaleway/sdk-file" "2.2.0"
     "@scaleway/sdk-flexibleip" "2.2.0"
