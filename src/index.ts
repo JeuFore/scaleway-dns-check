@@ -2,6 +2,7 @@ import 'dotenv/config'
 import { createClient, Domain } from '@scaleway/sdk'
 import fetch from 'node-fetch'
 import tracer from 'tracer'
+import { exec } from 'child_process'
 
 const logger = tracer.console({
     format: process.env.LOG_LEVEL === 'debug' ? "{{timestamp}} <{{title}}> {{message}} (in {{file}}:{{line}})" : "{{timestamp}} <{{title}}> {{message}}",
@@ -29,6 +30,13 @@ try {
         throw new Error('No records provided')
 } catch (error) {
     throw new Error('No records provided')
+}
+
+let APPRISE_URLS: string[] = []
+try {
+    APPRISE_URLS = process.env.APPRISE_URLS?.split(',') || []
+} catch (error) {
+    throw new Error('No APPRISE_URLS provided')
 }
 
 const DNS_ZONE = process.env.DNS_ZONE
@@ -71,6 +79,27 @@ const findHealthIp = async (): Promise<string> => {
     return findIp
 }
 
+const sendAppriseNotification = async (message: string): Promise<void> => {
+    if (!APPRISE_URLS.length) {
+        logger.warn('No APPRISE_URLS provided, skipping notification')
+        return
+    }
+
+    const urls = APPRISE_URLS.join(' ')
+
+    exec(`apprise -i markdown -n warning -t "### Scaleway DNS Check" -b "${message}" ${urls}`, (error, _stdout, stderr) => {
+        if (error) {
+            logger.error(`Error sending notification: ${error.message}`)
+            return
+        }
+        if (stderr) {
+            logger.error(`Error sending notification: ${stderr}`)
+            return
+        }
+        logger.info("Notification sent")
+    })
+}
+
 const updateDnsRecord = async (id: string, ip: string): Promise<void> => {
     try {
         logger.info(`Updating DNS record ${id} with IP ${ip}`)
@@ -106,8 +135,10 @@ const updateDnsRecord = async (id: string, ip: string): Promise<void> => {
             ],
             disallowNewZoneCreation: true
         })
+
         logger.info(`DNS record ${id} updated with IP ${ip}`)
-    } catch (error) {
+        sendAppriseNotification(`DNS records updated with IP **${ip}**`)
+    } catch (_e) {
         logger.error(`Error updating DNS record ${id} with IP ${ip}`)
     }
 }
@@ -128,3 +159,10 @@ const start = async () => {
 }
 
 start()
+
+process.on('unhandledRejection', (reason, promise) => {
+    logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
+});
+process.on('uncaughtException', (error) => {
+    logger.error('Uncaught Exception thrown:', error);
+});
